@@ -1,0 +1,19 @@
+.OneMovie {
+	max-width: 20rem;
+	border: 1px solid black;
+	padding: 1rem;
+	background-position: center;
+	background-size: cover;
+	color: white;
+	min-height: 7rem;
+	&:hover {
+		background-color: rgb(231, 231, 231);
+	}
+
+	& h3 {
+		background-color: rgba(0, 0, 0, 0.3);
+		padding: 0.5rem;
+		text-wrap: balance;
+		text-align: center;
+	}
+}

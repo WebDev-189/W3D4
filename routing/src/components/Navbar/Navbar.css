@@ -1,0 +1,16 @@
+.Navbar {
+	background: #1a1a1a;
+	display: flex;
+	height: 5rem;
+	color: whitesmoke;
+	justify-content: space-between;
+	padding: 0 2rem;
+	align-items: center;
+	position: sticky;
+	top: 0;
+	& ul {
+		display: flex;
+		list-style: none;
+		gap: 1rem;
+	}
+}
